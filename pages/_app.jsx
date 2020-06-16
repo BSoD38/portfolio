@@ -8,7 +8,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Head from "next/head";
 
-export default function MyApp({ Component, pageProps }) {
+export default function PortfolioApp({ Component, pageProps }) {
     return (
         <div className="app-container">
             <Head>

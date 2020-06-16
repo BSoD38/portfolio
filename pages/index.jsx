@@ -1,15 +1,13 @@
 import React from "react";
-import Card from "../Components/Card";
+import Link from "next/link";
 
 export default function Home() {
     return (
-        <main className="container is-fluid">
+        <main className="container is-fluid v-centered">
             <section className="section animate__animated animate__zoomIn hero has-text-centered">
-                <div className="columns is-centered">
-                    <figure className="image is-128x128">
-                        <img src="/img/logo.png"/>
-                    </figure>
-                </div>
+                <figure className="image is-128x128 centered">
+                    <img src="/img/logo.png" alt="logo"/>
+                </figure>
                 <div className="hero-body">
                     <div className="container">
                         <h1 className="title">
@@ -20,14 +18,13 @@ export default function Home() {
                         </h2>
                     </div>
                 </div>
-            </section>
-            <section className="section columns is-centered animate__animated animate__fadeInLeft animate__delay-1s">
-                <Card title="Full-stack developer" image="/img/web-dev.svg">
-                    Does stuff on webpages.
-                </Card>
-                <Card title="Mobile developer" image="/img/mobile-dev.svg">
-                    Does stuff on phones.
-                </Card>
+                <div>
+                    <Link href="/about">
+                        <a className="button is-primary is-outlined">
+                            Learn more
+                        </a>
+                    </Link>
+                </div>
             </section>
         </main>
     )

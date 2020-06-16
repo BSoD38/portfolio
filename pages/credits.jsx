@@ -14,10 +14,18 @@ export default function Credits() {
             <ul>
                 <li>- <a href="https://nextjs.org">Next.js</a> React framework</li>
                 <li>- <a href="https://bulma.io">Bulma</a> CSS framework</li>
+                <li>- Lux theme from <a href="https://jenil.github.io/bulmaswatch/">Bulmaswatch</a></li>
                 <li>- CSS animations made using <a href="https://animate.style">Animate.css</a></li>
                 <li>- Brand icons made by <a href="https://simpleicons.org">simpleicons.org</a></li>
-                <li>- Some icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
-                <li>- Some icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
+                <li>
+                    - Some icons made by
+                    <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx"> xnimrodx</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
+                <li>
+                    - Some icons made by
+                    <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+                </li>
             </ul>
         </main>
     );

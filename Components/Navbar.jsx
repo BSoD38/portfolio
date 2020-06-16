@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from "next/link";
 
 export default function Navbar() {
+    const [showNavbar, setShowNavbar] = useState(false);
+
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
@@ -10,14 +12,14 @@ export default function Navbar() {
                 </a>
 
                 <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                   data-target="navbar">
+                   data-target="navbar" onClick={() => setShowNavbar(!showNavbar)}>
                     <span aria-hidden="true"/>
                     <span aria-hidden="true"/>
                     <span aria-hidden="true"/>
                 </a>
             </div>
 
-            <div id="navbar" className="navbar-menu">
+            <div id="navbar" className={`navbar-menu ${showNavbar ? "is-active" : ""}`}>
                 <div className="navbar-start">
                     <Link href="/">
                         <a className="navbar-item">
