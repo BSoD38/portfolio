@@ -6,7 +6,7 @@ export default function Card(props) {
             <div className="card info-card" >
                 <div className="card-content">
                     {props.image &&
-                        <figure className="image is-128x128 centered">
+                        <figure className="image is-96x96 centered">
                             <img src={props.image} alt="image"/>
                         </figure>
                     }
@@ -14,7 +14,7 @@ export default function Card(props) {
                         {props.title}
                     </p>
                     <hr/>
-                    <div className="content has-text-centered v-centered">
+                    <div className="content has-text-centered">
                         {props.children}
                     </div>
                 </div>

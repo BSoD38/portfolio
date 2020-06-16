@@ -7,9 +7,11 @@ export default function Navbar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a className="navbar-item" href="https://bulma.io">
-                    <img src="/img/logo.png" alt="logo"/>
-                </a>
+                <Link href="/">
+                    <a className="navbar-item">
+                        <img src="/img/logo.png" alt="logo"/>
+                    </a>
+                </Link>
 
                 <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false"
                    data-target="navbar" onClick={() => setShowNavbar(!showNavbar)}>
@@ -30,6 +32,12 @@ export default function Navbar() {
                     <Link href="/about">
                         <a className="navbar-item">
                             About me
+                        </a>
+                    </Link>
+
+                    <Link href="/contact">
+                        <a className="navbar-item">
+                            Contact
                         </a>
                     </Link>
                 </div>
