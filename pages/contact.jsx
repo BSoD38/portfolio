@@ -20,7 +20,7 @@ export default function Contact() {
                             By mail
                         </h1>
                         <h2 className="subtitle">
-                            <a href="malto:ljpbsod@gmail.com">ljpbsod@gmail.com</a>
+                            <a href="mailto:ljpbsod@gmail.com">ljpbsod@gmail.com</a>
                         </h2>
                     </div>
                 </div>
