@@ -3,10 +3,9 @@ import Card from "../Components/Card";
 import Link from "next/link";
 
 export default function About() {
-    // TODO: Fix slide-in animations on mobile (they are disabled for now)
     return (
         <main className="container is-fluid">
-            <div className="hero v-centered">
+            <div className="hero v-centered animate__animated animate__fadeInUp">
                 <div className="hero-body has-text-centered">
                     <h1 className="title">
                         About me
@@ -16,7 +15,7 @@ export default function About() {
                     </h2>
                 </div>
             </div>
-            <div className="container">
+            <div className="container animate__animated animate__fadeInUp">
                 <section className="section columns">
                     <div className="column is-one-quarter has-text-centered">
                         <img src="/img/me.jpg" className="round"/>
@@ -34,61 +33,63 @@ export default function About() {
                     </div>
                 </section>
             </div>
-            <div className="">
-                <div className="hero v-centered">
-                    <div className="hero-body has-text-centered">
-                        <h1 className="title">
-                            Skills
-                        </h1>
-                        <h2 className="subtitle">
-                            What can I do?
-                        </h2>
+            <div className="animate__animated animate__fadeInUp">
+                <div className="animate__animated animate__fadeInUp">
+                    <div className="hero v-centered">
+                        <div className="hero-body has-text-centered">
+                            <h1 className="title">
+                                Skills
+                            </h1>
+                            <h2 className="subtitle">
+                                What can I do?
+                            </h2>
+                        </div>
                     </div>
+                    <section className="section columns is-centered">
+                        <Card title="Full-stack developer" image="/img/web-dev.svg">
+                            <div className="my-2">
+                                <img src="/img/symfony.svg" alt="Symfony" className="card-element-image"/>
+                                <h6>
+                                    Symfony 2/3/4
+                                </h6>
+                            </div>
+                            <div className="my-2">
+                                <img src="/img/react.svg" alt="React" className="card-element-image"/>
+                                <h6>
+                                    React
+                                </h6>
+                            </div>
+                            <div className="my-2">
+                                <img src="/img/vue-js.svg" alt="Vue.js" className="card-element-image"/>
+                                <h6>
+                                    Vue.js
+                                </h6>
+                            </div>
+                        </Card>
+                        <Card title="Mobile developer" image="/img/mobile-dev.svg">
+                            <div className="my-2">
+                                <img src="/img/react.svg" alt="React-Native" className="card-element-image"/>
+                                <h6>
+                                    React-Native
+                                </h6>
+                            </div>
+                            <div className="my-2">
+                                <img src="/img/android.png" alt="Symfony" className="card-element-image"/>
+                                <h6>
+                                    Native Android (Java)
+                                </h6>
+                            </div>
+                            <div className="my-2">
+                                <img src="/img/ionic.svg" alt="Ionic" className="card-element-image"/>
+                                <h6>
+                                    Ionic
+                                </h6>
+                            </div>
+                        </Card>
+                    </section>
                 </div>
-                <section className="section columns is-centered">
-                    <Card title="Full-stack developer" image="/img/web-dev.svg">
-                        <div className="my-2">
-                            <img src="/img/symfony.svg" alt="Symfony" className="card-element-image"/>
-                            <h6>
-                                Symfony 2/3/4
-                            </h6>
-                        </div>
-                        <div className="my-2">
-                            <img src="/img/react.svg" alt="React" className="card-element-image"/>
-                            <h6>
-                                React
-                            </h6>
-                        </div>
-                        <div className="my-2">
-                            <img src="/img/vue-js.svg" alt="Vue.js" className="card-element-image"/>
-                            <h6>
-                                Vue.js
-                            </h6>
-                        </div>
-                    </Card>
-                    <Card title="Mobile developer" image="/img/mobile-dev.svg">
-                        <div className="my-2">
-                            <img src="/img/react.svg" alt="React-Native" className="card-element-image"/>
-                            <h6>
-                                React-Native
-                            </h6>
-                        </div>
-                        <div className="my-2">
-                            <img src="/img/android.png" alt="Symfony" className="card-element-image"/>
-                            <h6>
-                                Native Android (Java)
-                            </h6>
-                        </div>
-                        <div className="my-2">
-                            <img src="/img/ionic.svg" alt="Ionic" className="card-element-image"/>
-                            <h6>
-                                Ionic
-                            </h6>
-                        </div>
-                    </Card>
-                </section>
             </div>
-            <div className="">
+            <div className="animate__animated animate__fadeInUp">
                 <div className="hero v-centered">
                     <div className="hero-body has-text-centered">
                         <h1 className="title">
@@ -144,7 +145,7 @@ export default function About() {
                     </Card>
                 </section>
             </div>
-            <section className="section is-centered">
+            <section className="section is-centered animate__animated animate__fadeInUp">
                 <div className="hero v-centered">
                     <div className="hero-body has-text-centered">
                         <h1 className="title">
