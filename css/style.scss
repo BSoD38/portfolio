@@ -1,0 +1,17 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.info-card {
+  min-height: 450px;
+}
+
+#heart-pulse {
+  display: inline-block;
+
+  animation: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
