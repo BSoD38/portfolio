@@ -3,8 +3,9 @@ import Card from "../Components/Card";
 import Link from "next/link";
 
 export default function About() {
+    // TODO: Fix slide-in animations on mobile (they are disabled for now)
     return (
-        <main>
+        <main className="container is-fluid">
             <div className="hero v-centered">
                 <div className="hero-body has-text-centered">
                     <h1 className="title">
@@ -16,8 +17,8 @@ export default function About() {
                 </div>
             </div>
             <div className="container">
-                <section className="section columns animate__animated animate__fadeInRight">
-                    <div className="column is-one-quarter has-text-right">
+                <section className="section columns">
+                    <div className="column is-one-quarter has-text-centered">
                         <img src="/img/me.jpg" className="round"/>
                     </div>
                     <div className="column">
@@ -33,7 +34,7 @@ export default function About() {
                     </div>
                 </section>
             </div>
-            <div className="animate__animated animate__fadeInLeft animate__delay-1s">
+            <div className="">
                 <div className="hero v-centered">
                     <div className="hero-body has-text-centered">
                         <h1 className="title">
@@ -87,7 +88,7 @@ export default function About() {
                     </Card>
                 </section>
             </div>
-            <div className="animate__animated animate__fadeInRight animate__delay-2s">
+            <div className="">
                 <div className="hero v-centered">
                     <div className="hero-body has-text-centered">
                         <h1 className="title">
