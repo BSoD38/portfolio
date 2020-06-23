@@ -2,18 +2,8 @@ import React from "react";
 
 export default function Contact() {
     return(
-        <main className="container is-fluid">
-            <div className="hero v-centered">
-                <div className="hero-body has-text-centered">
-                    <h1 className="title">
-                        Contact
-                    </h1>
-                    <h2 className="subtitle">
-                        Feeling chatty?
-                    </h2>
-                </div>
-            </div>
-            <section className="section container v-centered">
+        <main className="container is-fluid v-centered animate__animated animate__zoomIn">
+            <section className="section">
                 <div className="hero v-centered">
                     <div className="hero-body has-text-centered">
                         <h1 className="title">
