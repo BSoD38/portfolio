@@ -17,10 +17,10 @@ export default function Projects() {
                     </Hero>
                     <IllustratedParagraph image="/img/ut_fr.png" textColumnClasses="is-three-fifths">
                         <h1 className="content is-medium">
-                            UTFR Patcher
-                            <h2 className="content is-small">
+                            UTFR Patcher<br/>
+                            <span className="content is-small">
                                 (WIP)
-                            </h2>
+                            </span>
                         </h1>
                         <p className="content is-medium">
                             This is a work-in-progress tool I made in Electron and vanilla JS for installing a French
@@ -77,6 +77,8 @@ export default function Projects() {
                             The only project that we had to complete in two weeks instead of one.<br/>
                             A three-part project used for organising a race where participants had to flash QR Codes with
                             a dedicated app to answer questions all across Grenoble :
+                        </p>
+                        <div className="content is-medium">
                             <ul>
                                 <li>
                                     A back-office used for creating questions, signing up teams, generating QR Codes,
@@ -93,7 +95,7 @@ export default function Projects() {
                                     QR Code to answer questions, check the leaderboard and download the rules.
                                 </li>
                             </ul>
-                        </p>
+                        </div>
                     </IllustratedParagraph>
                     <IllustratedParagraph image="/img/pictotala.png" textColumnClasses="is-three-fifths" imageHref="https://gitlab.com/BSoD38/pictotala-android">
                         <a href="https://gitlab.com/BSoD38/pictotala-android" target="_blank">

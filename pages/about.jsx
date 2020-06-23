@@ -41,27 +41,27 @@ export default function About() {
                 </Hero>
                 <section className="section">
                     <IllustratedParagraph image="/img/prospectiva.png" textColumnClasses="is-half">
-                        <div>
+                        <div className="content is-medium">
                             <h1 className="content is-medium">Prospectiva<br/>2018-2020</h1>
                             <p className="content is-medium">
                                 Company specialised in custom-tailored applications for temporary work agencies.
                                 These applications interface with software used by the agencies through a
                                 SOAP/RESTful API service.
-                                <ul>
-                                    <li>
-                                        Web developer
-                                    </li>
-                                    <li>
-                                        Mobile developer
-                                    </li>
-                                    <li>
-                                        Legacy web app maintainer
-                                    </li>
-                                    <li>
-                                        SOAP/RESTful API interfacing
-                                    </li>
-                                </ul>
                             </p>
+                            <ul>
+                                <li>
+                                    Web developer
+                                </li>
+                                <li>
+                                    Mobile developer
+                                </li>
+                                <li>
+                                    Legacy web app maintainer
+                                </li>
+                                <li>
+                                    SOAP/RESTful API interfacing
+                                </li>
+                            </ul>
                         </div>
                     </IllustratedParagraph>
                 </section>
