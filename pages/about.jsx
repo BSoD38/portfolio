@@ -176,6 +176,13 @@ export default function About() {
                         </div>
                     </Card>
                 </section>
+                <div className="has-text-centered">
+                    <Link href="/cv_liam_powell.pdf">
+                        <a className="button is-primary is-outlined" target="_blank">
+                            Download my CV (in french)
+                        </a>
+                    </Link>
+                </div>
             </div>
             <section className="section is-centered animate__animated animate__fadeInUp">
                 <Hero centered>
