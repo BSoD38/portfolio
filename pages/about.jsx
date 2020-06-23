@@ -7,26 +7,28 @@ import Hero from "../Components/Hero";
 export default function About() {
     return (
         <main className="container is-fluid">
-            <Hero centered>
-                <h1 className="title">
-                    About me
-                </h1>
-                <h2 className="subtitle">
-                    So... Who am I, exactly?
-                </h2>
-            </Hero>
-            <div className="container">
-                <IllustratedParagraph image="/img/me.jpg" imageClass="round">
-                    <p className="content is-large has-text-justified">
-                        Hello there! I'm Liam, I'm a full-stack and mobile developer based in Grenoble, France.
-                        I mainly use Symfony 2, 3 and 4 as back-end techs, and I work with React and Vue.js as front-end
-                        techs. I have also used Angular through Ionic, and dabbled with Node.js and
-                        Electron when working on small personal projects.
-                    </p>
-                    <p className="content is-large has-text-justified">
-                        Check out the overview of my skills and experience below.
-                    </p>
-                </IllustratedParagraph>
+            <div className="animate__animated animate__fadeInUp">
+                <Hero centered>
+                    <h1 className="title">
+                        About me
+                    </h1>
+                    <h2 className="subtitle">
+                        So... Who am I, exactly?
+                    </h2>
+                </Hero>
+                <div className="container">
+                    <IllustratedParagraph image="/img/me.jpg" imageClass="round">
+                        <p className="content is-large has-text-justified">
+                            Hello there! I'm Liam, I'm a full-stack and mobile developer based in Grenoble, France.
+                            I mainly use Symfony 2, 3 and 4 as back-end techs, and I work with React and Vue.js as front-end
+                            techs. I have also used Angular through Ionic, and dabbled with Node.js and
+                            Electron when working on small personal projects.
+                        </p>
+                        <p className="content is-large has-text-justified">
+                            Check out the overview of my skills and experience below.
+                        </p>
+                    </IllustratedParagraph>
+                </div>
             </div>
             <div className="animate__animated animate__fadeInUp">
                 <Hero centered>
