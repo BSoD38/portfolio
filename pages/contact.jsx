@@ -10,7 +10,7 @@ export default function Contact() {
                             By mail
                         </h1>
                         <h2 className="subtitle">
-                            <a href="mailto:ljpbsod@gmail.com">ljpbsod@gmail.com</a>
+                            <a href="mailto:liam@tysil.io">liam@tysil.io</a>
                         </h2>
                     </div>
                 </div>
