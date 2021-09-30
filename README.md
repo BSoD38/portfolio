@@ -1,5 +1,5 @@
 # Portfolio
-My portfolio. Check out the deployed version [here](https://portfolio.tysilio.vercel.app/).
+My portfolio. Check out the deployed version [here](https://tysil.io/).
 
 # Setup (if that matters)
 - Clone the project
